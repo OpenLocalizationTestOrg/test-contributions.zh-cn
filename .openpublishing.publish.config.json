@@ -2,10 +2,10 @@
   "build_entry_point": "docs",
   "docsets_to_publish": [
     {
-      "docset_name": "test-contribution",
+      "docset_name": "contribution",
       "build_source_folder": "test-contribution",
-      "build_output_subfolder": ".",
-      "locale": "zh-cn",
+      "build_output_subfolder": "contribution",
+      "locale": "zh-CN",
       "monikers": [],
       "open_to_public_contributors": false,
       "type_mapping": {
@@ -18,6 +18,7 @@
     }
   ],
   "notification_subscribers": [],
+  "sync_notification_subscribers": [],
   "branches_to_filter": [
     "master-sxs1"
   ],
@@ -30,7 +31,7 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.zh-cn",
+      "url": "https://github.com/Microsoft/templates.docs.msft.zh-CN",
       "branch": "master",
       "branch_mapping": {}
     },
